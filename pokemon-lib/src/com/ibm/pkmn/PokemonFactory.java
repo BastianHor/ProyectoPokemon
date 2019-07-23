@@ -28,6 +28,10 @@ public class PokemonFactory {
   public Squartle crearSquartle() {
 	
 	  Squartle squar = new Squartle();
+	  squar.setEnergia(100);
+	  squar.setNombre("Squartle");
+	  squar.setHabilidad("Bola de agua");
+	  squar.setTipo("Agua");
 	  return squar;
 	  
 	  
