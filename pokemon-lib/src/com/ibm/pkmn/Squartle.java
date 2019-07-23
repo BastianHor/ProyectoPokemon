@@ -7,6 +7,12 @@ public class Squartle {
 	 private String tipo;
 	 private String habilidad;
 	 
+	 
+	 
+	public Squartle() {
+		super();
+	}
+
 	public Squartle(String nombre, int energia, String tipo, String habilidad) {
 		super();
 		this.nombre = nombre;

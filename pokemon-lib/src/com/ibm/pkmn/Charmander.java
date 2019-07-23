@@ -7,6 +7,12 @@ public class Charmander  {
 	private String tipo;
 	private String habilidad;
 	
+	
+	
+	public Charmander() {
+		super();
+	}
+
 	public Charmander(String nombre, int energia, String tipo, String habilidad) {
 		super();
 		this.nombre = nombre;

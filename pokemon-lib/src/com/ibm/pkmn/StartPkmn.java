@@ -15,10 +15,10 @@ public class StartPkmn {
 		System.out.println("3.Carterpy");
 		System.out.println("Elige tu Pokemon");
 		pok=sc.nextInt();
-		
+		PokemonFactory pokefact = new PokemonFactory();
 		if(pok==1) {
 			
-			System.out.println("opcion 1");
+			//System.out.println("opcion 1");
 			
 		} else if (pok==2) {
 			

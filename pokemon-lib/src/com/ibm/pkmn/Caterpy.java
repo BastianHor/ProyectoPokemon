@@ -7,6 +7,12 @@ public class Caterpy {
 	 private String tipo;
 	 private String habilidad;
 	 
+	 
+	 
+	public Caterpy() {
+		super();
+	}
+
 	public Caterpy(String nombre, int energia, String tipo, String habilidad) {
 		super();
 		this.nombre = nombre;
