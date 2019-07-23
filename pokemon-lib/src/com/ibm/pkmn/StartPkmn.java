@@ -16,12 +16,14 @@ public class StartPkmn {
 		System.out.println("Elige tu Pokemon");
 		pok=sc.nextInt();
 		PokemonFactory pokefact = new PokemonFactory();
-		Charmander charm= null;
+		Pokemon pkn= null;
 		if(pok==1) {
 			
 			//System.out.println("opcion 1");
-			charm = pokefact.crearCharmander();
-			
+			pkn = pokefact.crearCharmander();
+			((Charmander)pkn).getNombre();
+			System.out.println("Nombre: "+ ((Charmander)pkn).getNombre()+"; energia: "+((Charmander)pkn).getEnergia());
+
 		} else if (pok==2) {
 			
 			System.out.println("opcion 2");
@@ -34,7 +36,7 @@ public class StartPkmn {
 			System.out.println("Opcion incorrecta");
 		}
 		
-		
+		pkn.ataqueRealizado();
 		
 		
 			
