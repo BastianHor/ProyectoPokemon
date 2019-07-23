@@ -1,6 +1,6 @@
 package com.ibm.pkmn;
 
-public class Caterpy {
+public class Caterpy implements Pokemon{
 
 	 private String nombre;
 	 private int energia;
@@ -51,6 +51,18 @@ public class Caterpy {
 
 	public void setHabilidad(String habilidad) {
 		this.habilidad = habilidad;
+	}
+
+	@Override
+	public void ataqueRealizado() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void danioRecibido() {
+		// TODO Auto-generated method stub
+		
 	}
 	
 	
